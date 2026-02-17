@@ -46,15 +46,12 @@ The experimental pipeline proceeds through the following stages:
 
 The figure below presents the original NO₂ distribution, the applied nonlinear transformation function, and the true distribution of the transformed variable $z$, providing a visual foundation for understanding the distributional shift introduced by the transformation.
 
-![Data and transformation](./data_transformation.png)
-
 ---
 
 ## GAN-Learned Distribution vs. True PDF
 
 The figure below offers a direct comparison between the histogram of GAN-generated samples, the KDE of the learned distribution, and the KDE of the true distribution of $z$. This visualization quantifies how accurately the GAN captures the underlying PDF.
 
-![GAN vs true PDF](./pdf_comparison.png)
 
 ---
 
